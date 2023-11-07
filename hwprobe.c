@@ -18,7 +18,7 @@ static int __riscv_hwprobe(struct riscv_hwprobe *pairs, size_t pair_count,
 }
 
 static const char* ima_ext0[] = {
-	"IMA_FD",
+	"FD",
 	"C",
 	"V",
 	"Zba",
